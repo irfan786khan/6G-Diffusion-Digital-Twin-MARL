@@ -287,10 +287,8 @@ This project is licensed under the QZUIE License.
 
 ## Contact
 
-For questions or issues, please open an issue in the repository.
+For questions or issues, please open an issue in the repository or email to wali_samad@qzuie.edu.cn.
 ```
-
----
 
 This README provides complete documentation including:
 - System overview and architecture
