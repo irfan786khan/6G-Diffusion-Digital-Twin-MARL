@@ -1,0 +1,61 @@
+{
+  "created": "2026-06-01T05:54:19.515611",
+  "total_episodes": 1500,
+  "scenarios": {
+    "train_normal": {
+      "num_episodes": 500,
+      "episode_length": 100,
+      "state_dim": [
+        3,
+        5
+      ],
+      "action_dim": 3,
+      "sample_throughput_mean": 7.0497461350923185,
+      "sample_reward_mean": -0.040804421548710765
+    },
+    "train_congestion": {
+      "num_episodes": 300,
+      "episode_length": 100,
+      "state_dim": [
+        3,
+        5
+      ],
+      "action_dim": 3,
+      "sample_throughput_mean": 6.62515496363264,
+      "sample_reward_mean": -1.354356227444341
+    },
+    "train_high_mobility": {
+      "num_episodes": 300,
+      "episode_length": 100,
+      "state_dim": [
+        3,
+        5
+      ],
+      "action_dim": 3,
+      "sample_throughput_mean": 4.7146938476598415,
+      "sample_reward_mean": -3.580483903576341
+    },
+    "train_outage": {
+      "num_episodes": 200,
+      "episode_length": 100,
+      "state_dim": [
+        3,
+        5
+      ],
+      "action_dim": 3,
+      "sample_throughput_mean": 7.3458898941242,
+      "sample_reward_mean": -1.2408394628451285
+    },
+    "zero_shot_test": {
+      "num_episodes": 200,
+      "episode_length": 100,
+      "state_dim": [
+        3,
+        5
+      ],
+      "action_dim": 3,
+      "sample_throughput_mean": 6.981468131827478,
+      "sample_reward_mean": -2.2776027998697526
+    }
+  }
+}
